@@ -1,11 +1,11 @@
 # Double Prompting in Non-Reasoning Models
 
 This evaluation investigates the effectiveness of prompt repetition in 
-improving the benchmark performance of non-reasoning models.
+improving the benchmark performance of non-extended-reasoning models.
 
 ## Evaluation
 
-Using inspect, three non-reasoning models are compared on the GSM8K, 
+Using inspect, three non-extended-reasoning models are compared on the GSM8K, 
 ARC Challenge, and MATH 500 Benchmarks. The models are evaluated in three conditions:
 1. **(Baseline) Single Prompting**: The model is prompted once with the question.
 2. **Double Prompting**: The model is prompted twice with the same question.
