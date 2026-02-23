@@ -17,7 +17,7 @@ on the respective benchmarks.
 
 ## Walkthrough
 
-[![WALKTHROUGH](https://img.youtube.com/vi/uYRMDqGixCA/0.jpg)](https://www.youtube.com/watch?v=uYRMDqGixCA)
+https://github.com/user-attachments/assets/cf92d4d0-379a-4ae8-99e1-34a0a23420e3
 
 ## Results
 
