@@ -12,7 +12,6 @@ if acc_col:
 df["reps"] = df["task_arg_num_reps"]
 df["model_short"] = df["model"].astype(str).str.split("/").str[-1]
 
-# Clean up names
 model_name_map = {
     "claude-3-7-sonnet-20250219": "Claude 3.7 Sonnet",
     "gpt-4o": "GPT-4o",
@@ -99,7 +98,7 @@ for i, rep in enumerate(reps):
 ax.set_title("Average Across All Tasks", fontweight="bold", fontsize=12)
 ax.set_xticks(list(x))
 ax.set_xticklabels(models, fontsize=10)
-ax.set_ylabel("Accuracy (\\%)", fontsize=10)  # if using usetex
+ax.set_ylabel("Accuracy (\\%)", fontsize=10)
 ax.set_ylim(0, 105)
 ax.grid(True, alpha=0.3, axis="y", linestyle="--")
 ax.spines["top"].set_visible(False)
