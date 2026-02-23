@@ -1,6 +1,4 @@
 import matplotlib.pyplot as plt
-import matplotlib.ticker as mtick
-import pandas as pd
 from inspect_ai.analysis import evals_df
 
 log_dir = "./logs/repetition_sweep"
